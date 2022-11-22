@@ -1,0 +1,69 @@
+@import '../../App';
+
+
+@media (max-width: 960px) {
+  body { zoom: 0.7; }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  } to {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes sway {
+  from {
+    transform: translateX(0px);
+  } to {
+    transform: translateX(-12px);
+  }
+}
+
+.mountains-container {
+    min-height: 100%;
+    background: linear-gradient(to bottom, $darkblue, $lightblue);
+    position: relative;
+
+    #mountains {
+        z-index: 2;
+        position: absolute;
+        bottom: 20%;
+        margin-bottom: -16px;
+        left: 10%;
+    }
+
+    .trees {
+        width: 100%;
+        height: 130px;
+        z-index: 4;
+        position: absolute;
+        bottom: 20%;
+        margin-bottom: -100px;
+    }
+
+    #ground {
+        z-index: 1;
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        bottom: 0;
+        background: $greenprimary;
+        background: linear-gradient(to bottom, $greenprimary, $greenshadow);
+    }
+
+    #hills {
+        position: absolute;
+        left: 10%;
+        margin-left: -120px;
+        margin-bottom: -86px;
+        bottom: 20%;
+        z-index: 3;
+    }
+
+    #stars {
+        width: 100%;
+        height: 100%;
+    }
+}

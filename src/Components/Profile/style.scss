@@ -1,0 +1,13 @@
+.profile {
+    z-index: 10;
+    color: white;
+}
+
+.title {
+    font-size: 4.5rem;
+}
+
+
+.dropshadow {
+    filter: drop-shadow(.075em .075em 0 rgba(0, 0, 0, .5));
+}

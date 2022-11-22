@@ -1,0 +1,44 @@
+@import '../../App';
+
+$greendark: #090c08;
+
+.profile {
+    z-index: 10;
+    color: white;
+}
+
+#section1 {
+    background: $greenprimary;
+    background: linear-gradient(to bottom, $greenshadow, $greendark);
+}
+
+li {
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: underline;
+    color: white;
+}
+
+.link:hover {
+    color: $orange;
+}
+
+.projects a {
+    font-weight: bold;
+}
+
+.publications a {
+    font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+a:hover {
+    color: $orange;
+}
