@@ -36,7 +36,7 @@ const About = React.forwardRef((props, ref) => {
                   I currently work for Blue Prism as a Junior Developer. To find out more, checkout my <a href="https://www.linkedin.com/in/matthewnethercott/">LinkedIn</a>.
                 </p>
                 <p>
-                  I have a love for running, cycling, and hiking. If it's the weekend I can often be found at parkrun or on a long walk with my miniature labradoodle.
+                  I have a love for running, cycling, and hiking. If it's the weekend I can often be found at parkrun, on a long run, exploring with my dog.
                 </p>
             </Col>
           </Row>
@@ -55,7 +55,7 @@ const About = React.forwardRef((props, ref) => {
             <Col>
               <ul className="publications">
                 <li>
-                Nethercott, M., Blanchard, A., Gilbert, L., & Dawson, T. <a href={alexaPaper} target="_blank" rel="noreferrer">Minimising false alerts in telecare with the use of Augmented Communication Technologies</a> 5th International Conference on Interactive Digital Media (Accepted for Springer Long Paper Publication, December 2018). Presented paper at the 5th International Conference on Interactive Digital Media (ICIDM 2018)
+                  <p>Nethercott, M., Blanchard, A., Gilbert, L., & Dawson, T. <a href={alexaPaper} target="_blank" rel="noreferrer">Minimising false alerts in telecare with the use of Augmented Communication Technologies</a> 5th International Conference on Interactive Digital Media (Accepted for Springer Long Paper Publication, December 2018). Presented paper at the 5th International Conference on Interactive Digital Media (ICIDM 2018)</p>
                 </li>
               </ul>
             </Col>
@@ -75,22 +75,22 @@ const About = React.forwardRef((props, ref) => {
             <Col>
               <ul className="projects">
                 <li>
-                  <a href={dissertation} target="_blank" rel="noreferrer">Delivering health passports using location based QR codes</a>: Undergraduate Dissertation using Xamarin, PHP, and MySQL.
+                  <p><a href={dissertation} target="_blank" rel="noreferrer">Delivering health passports using location based QR codes</a>: Undergraduate Dissertation using Xamarin, PHP, and MySQL.</p>
                 </li>
                 <li>
-                  <b>Marathon Training Planner</b>: A sport training scheduler predominately used for marathon training that assesses current ability to detect overtraining. Uses ReactJS and Postgresql.
+                  <p><b>Marathon Training Planner</b>: A sport training scheduler predominately used for marathon training that assesses current ability to detect overtraining. Uses ReactJS and Postgresql.</p>
                 </li>
                 <li>
-                  <a href="https://github.com/mattncott/running-calculations" target="_blank" rel="noreferrer">Running Calculations NPM library</a>: Javascript calculations for runners. Adapted from Jack Daniels tables.
+                  <p><a href="https://github.com/mattncott/running-calculations" target="_blank" rel="noreferrer">Running Calculations NPM library</a>: Javascript calculations for runners. Adapted from Jack Daniels tables.</p>
                 </li>
                 <li>
-                  <a href="https://github.com/mattncott/burger-bot" target="_blank" rel="noreferrer">Discord Bot</a>: Discord bot written with discord.io to detect whether spoiler images contain objects. Uses Tensorflow for classify images.
+                  <p><a href="https://github.com/mattncott/burger-bot" target="_blank" rel="noreferrer">Discord Bot</a>: Discord bot written with discord.io to detect whether spoilered images contain objects. Uses Tensorflow to classify images.</p>
                 </li>
                 <li>
-                  <b>Smart home automations</b>: Building smart home automations for Homebridge running off of a Raspberry PI.
+                  <p><b>Smart home automations</b>: Building smart home automations for Home Assistant running off of a Raspberry PI. I am using MQTT and Mosquitto for messaging between Zigbee devices</p>
                 </li>
                 <li>
-                  <a href="https://github.com/mattncott/mattncott.github.io" target="_blank" rel="noreferrer">Portfolio Website</a>: This website, used to show case what I can do.
+                  <p><a href="https://github.com/mattncott/mattncott.github.io" target="_blank" rel="noreferrer">Portfolio Website</a>: This website, used to show case what I can do.</p>
                 </li>
               </ul>
             </Col>
