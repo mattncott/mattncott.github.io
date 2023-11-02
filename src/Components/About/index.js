@@ -78,6 +78,9 @@ const About = React.forwardRef((props, ref) => {
                   <p><a href={dissertation} target="_blank" rel="noreferrer">Delivering health passports using location based QR codes</a>: Undergraduate Dissertation using Xamarin, PHP, and MySQL.</p>
                 </li>
                 <li>
+                  <p><a href="https://intellitrain.duckdns.org" target="_blank">IntelliTrain</a>A dashboard for athletes to analyse training data synced via Strava v3 API.</p>
+                </li>
+                <li>
                   <p><b>Marathon Training Planner</b>: A sport training scheduler predominately used for marathon training that assesses current ability to detect overtraining. Uses ReactJS and Postgresql.</p>
                 </li>
                 <li>
